@@ -68,9 +68,9 @@ public class HotDrinkVendingApp {
     public static void main(String[] args) {
         HotDrinkVendingMachine machine = new HotDrinkVendingMachine();
 
-        machine.addDrink(new HotDrink("Coffee", 250, 80));
-        machine.addDrink(new HotDrink("Tea", 200, 70));
-        machine.addDrink(new HotDrink("Hot Chocolate", 300, 85));
+        machine.addDrink(new HotDrink("Кофе", 250, 80));
+        machine.addDrink(new HotDrink("Чай", 200, 70));
+        machine.addDrink(new HotDrink("Горячий Шоколад", 300, 85));
 
         Scanner scanner = new Scanner(System.in);
 
